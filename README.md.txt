@@ -1,0 +1,1 @@
+This is file containing examples of various python codes for loops, if statements and booleans.

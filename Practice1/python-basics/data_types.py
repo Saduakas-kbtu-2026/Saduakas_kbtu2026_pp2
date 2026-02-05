@@ -1,0 +1,11 @@
+l_list = [1,2,3,4] #ordered list containing 1 data type, int string or float.
+t_tuple = (1,2,3,4) #similar to list; is read only. Is faster; less error prone
+i_int = 3 # used to represent whole numbers.
+f_float = 2.5 #represents non whole numbers upto a certain point of precision
+c_complex = 3j # is used to represent complex numbers in python
+m_map = {1: "string cheese", 2: "keybaord"} #used like a dictionary
+s_set = {2,3,1,4} #unordered list of var; immutable.
+b_bool = True # must always be capitalised
+b_byte = bytes(5) # stores input data as bytes
+b_byte_array = bytearray(5) # same as bytes but takes entire arrays instead.
+m_memoryview = memoryview(3) #lets you look at and change the data directly without making a copy.

@@ -1,0 +1,13 @@
+#The filter() function creates a list of items for which a function returns True:
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
+print(odd_numbers)
+
+
+def median(num):
+    sum = 0
+    for n in num:
+        sum += n
+    return sum/len(num)
+mid = median(numbers)
+print(list(filter(lambda x: x > mid, numbers)))

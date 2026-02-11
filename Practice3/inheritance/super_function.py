@@ -8,6 +8,12 @@ class Person:
 
 
 class Student(Person):
-  def __init__(self, fname, lname):
-    super().__init__(fname, lname) # makes child inherit all properties and methods of parent
-    self.graduationyear = 2019
+    def __init__(self, fname, lname):
+        super().__init__(fname, lname) # makes child inherit all properties and methods of parent
+        self.graduationyear = 2019
+    def printgrad(self):
+        print(self.graduationyear)
+
+p1 = Student("Mike", "Olsen")
+p1.printname() 
+p1.printgrad()
